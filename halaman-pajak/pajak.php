@@ -65,10 +65,8 @@ if ($keyword != '') {
     foreach ($kendaraan as $platNomor => $item) {
         if (stripos($platNomor, $keyword) !== false || stripos($item['nama'], $keyword) !== false || stripos($item['jenis'], $keyword) !== false) {
             $hasil_cari[$platNomor] = $item;
-            
         }
     }
-
 } else {
     $hasil_cari = $kendaraan; // Jika tidak mencari, tampilkan semua
 }
@@ -82,8 +80,16 @@ if ($keyword != '') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bayar</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        * {
+            font-family: "Lato", sans-serif;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
     <script>
         const update = (input, total) => {
             const bayar = parseInt(input.value) || 0;
