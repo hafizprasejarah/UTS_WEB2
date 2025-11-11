@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="icon" href="img/3.png"> -->
-    <title>CIPKBO</title>
+    <!-- <link rel="icson" href="img/3.png"> -->
+    <title>Pajak</title>
     <style>
         * {
             font-family: "Lato", sans-serif;
@@ -25,7 +25,14 @@
 <body class="p-0 m-0 bg-gradient-to-r from-blue-500  to-indigo-400">
     <div class="w-full flex justify-center ">
         <div class="max-w-[1080px] flex justify-center py-6 ">
-            <div class="max-w-[850px] shadow-lg bg-[#EEEEEE] p-6 rounded-md space-y-2 shadow-xl">
+            <div class="max-w-[850px] shadsow-lg bg-[#EEEEEE] p-6 rounded-md space-y-2 shadow-xl">
+                <!-- logo -->
+                <div class="flex items-center space-x-3 border-b">
+                    <img src="asset/logo1.png" alt="Logo Bayar Pajak" class="w-14 h-14 object-contain">
+                    <div class="text-2xl font-semibold text-gray-800">Bayar Pajak</div>
+                </div>
+
+                <!-- logo -->
                 <h1 class="text-[16px] font-bold">Pembayaran Informasi Pajak Kendaraan Bermotor Online Pulau Jawa</h1>
                 <h1 class="text-justify text-[16px]">
                     Bayar pajak kendaraan bermotor online dengan mudah dan cepat
@@ -40,30 +47,24 @@
                     <h1>
                         <ul>
                             <li>
-                                1. Pajak online hanya bisa dilakukan untuk pembayaran tahunan (bukan 5 tahunan).
-                            </li>
-                            <li>
-                                2. Untuk pajak 5 tahunan (ganti STNK & plat nomor), wajib datang ke Samsat untuk cek fisik kendaraan.
-                            </li>
-                            <li>
-                                3. Pastikan data di STNK dan KTP sesuai nama pemilik agar tidak gagal validasi.
+                                Pastikan data di STNK dan KTP sesuai nama pemilik agar tidak gagal validasi.
                             </li>
                         </ul>
                     </h1>
                 </div>
 
                 <div class="flex space-x-2 text-[16px] my-6 pointer">
-                    <a href="" class=" bg-blue-500 px-4 py-2 rounded-[10px] text-white hover:bg-blue-600 hover:text-gray-200 transition">
+                    <a href="https://wa.me/6288221038389?text=Saya%20ingin%20bertanya" target="_blank" class=" bg-blue-500 px-4 py-2 rounded-[10px] text-white hover:bg-blue-600 hover:text-gray-200 transition">
                         <i class="fa-brands fa-whatsapp"></i>
                     </a>
-                    <a href="" class="bg-blue-500 px-4 py-2 rounded-[10px] text-white hover:bg-blue-600 hover:text-gray-200 transition">
+                    <a href="https://web.facebook.com/tmp.alima?locale=id_ID" class="bg-blue-500 px-4 py-2 rounded-[10px] text-white hover:bg-blue-600 hover:text-gray-200 transition">
                         <i class="fa-brands fa-facebook-f"></i>
                     </a>
-                    <a href="" class="bg-blue-500 px-4 py-2 rounded-[10px] text-white hover:bg-blue-600 hover:text-gray-200 transition">
+                    <a href=" https://www.linkedin.com/in/hafiz-pratama-69b969396" class="bg-blue-500 px-4 py-2 rounded-[10px] text-white hover:bg-blue-600 hover:text-gray-200 transition">
                         <i class="fa-brands fa-linkedin-in"></i>
 
                     </a>
-                    <a href="" class="bg-blue-500 px-4 py-2 rounded-[10px] text-white hover:bg-blue-600 hover:text-gray-200 transition">
+                    <a href="https://github.com/hafizprasejarah" class="bg-blue-500 px-4 py-2 rounded-[10px] text-white hover:bg-blue-600 hover:text-gray-200 transition">
                         <i class="fa-brands fa-github"></i>
                     </a>
                 </div>
